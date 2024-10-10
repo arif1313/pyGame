@@ -1,6 +1,6 @@
 amount=5.8
-print(int(amount))
+print(int(amount))#float to int
 CGPA=4
-print(float(CGPA))
-name=str(input())
+print(float(CGPA))#int to float
+name=str(input())# input string 
 print(name)
