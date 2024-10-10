@@ -32,3 +32,18 @@ print(float(CGPA))#int to float
 name=str(input())# input string
 print(name)
 ```
+
+## while loop
+
+```
+while logic:
+    statement 1
+    statement 2
+```
+
+```py
+i=0
+while i <10:
+    print("my name is arif")
+    i=i+1 #pyhon have not increament and decriment operator
+```
