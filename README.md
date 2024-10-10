@@ -3,7 +3,11 @@
 ## print line
 
 ```py
-print("hello world" end=" ")
+
+print("hello world", end="") #with out new line 
+print("hello world") #with new line 
+full_name= "arif hossen "
+print(f"hi this is  {full_name}")# with formating 
 ```
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
