@@ -47,3 +47,13 @@ while i <10:
     print("my name is arif")
     i=i+1 #pyhon have not increament and decriment operator
 ```
+
+## for loop
+
+```py
+for i in range(10):
+    print(i,end=" ")# print 0 to 9
+name="md arif howlader "
+for i in name:
+    print(i,end=" ")# print all letter
+```
