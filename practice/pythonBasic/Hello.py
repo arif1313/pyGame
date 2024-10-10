@@ -1,3 +1,5 @@
-print("hello world")
+
+print("hello world", end="") #with out new line 
+print("hello world") #with new line 
 full_name= "arif hossen "
-print(f"hi this is  {full_name}")
+print(f"hi this is  {full_name}")# with formating 
