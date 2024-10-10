@@ -22,16 +22,16 @@
 a=3
 b=5
 lamdaAccess=lambda a,b :\
-    a+b;
+    a+b
 print(lamdaAccess(a,b))
 
 #function and lamda function 
 
 def myfun(n):
-    return lambda a: a*n;
+    return lambda a: a*n
 multiple= myfun(2); #pass function parameter
 result = multiple(11);# pass lamda function parameter
-print(result);
+print(result)
 
 
 

@@ -2,4 +2,4 @@
 import writenfile
 
 
-print(writenfile.text());
+print(writenfile.text())

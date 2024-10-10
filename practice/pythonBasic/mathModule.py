@@ -9,20 +9,20 @@ x=max(5,67,3,7,2,)
 
 minofAray=min(array1)
 minvalue=min(5,67,3,7,2,)
-print(x);
-print(y);
-print(minofAray);
-print(minvalue);
+print(x)
+print(y)
+print(minofAray)
+print(minvalue)
 #abs method for modulas work
 print(abs(-452))
 
-print(pow(3,2));
+print(pow(3,2))
 
 #now use math module
 print(math.ceil(3.4))
 print(math.floor(3.4))
 
-print(math.acos(.83453));
+print(math.acos(.83453))
 print(math.sqrt(64))
 print(math.pi)
 
@@ -41,7 +41,7 @@ tan_value = math.tan(angle)
 print(sin_value, cos_value, tan_value)
 
 
-print(math.factorial(5));
+print(math.factorial(5))
 print(math.fabs(-34)); # abs and fabs are same use find for absulate value
 print(math.fmod(34,5)) # use for rmaider %
 myNumber= [5,8,3,1,65,8]
