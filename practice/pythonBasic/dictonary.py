@@ -27,19 +27,19 @@ myfamily = {
   }
 }
 
-x=myfamily["child1"].values();
-print(x);
+x=myfamily["child1"].values()
+print(x)
 y= myfamily["child2"]["year"]
-print(y);
-print(myfamily);
+print(y)
+print(myfamily)
 
-myfamily["child1"]["name"]="arif";
-print(myfamily);
+myfamily["child1"]["name"]="arif"
+print(myfamily)
 #update method
 
-myfamily["child2"].update({"home":"barishal", "hsc":"hatemali"});
+myfamily["child2"].update({"home":"barishal", "hsc":"hatemali"})
 print(myfamily)
-myfamily["child2"].pop("hsc");
+myfamily["child2"].pop("hsc")
 print(myfamily)
 '''also can your del myfamily["children"],
  for remove alll can your del myfamily or myfamily.clear()'''
@@ -50,5 +50,5 @@ tup1=("name", "home")
 tup2=("arif", "barishal")
 
 
-mydict= dict.fromkeys(tup1, tup2);
-print(mydict);
+mydict= dict.fromkeys(tup1, tup2)
+print(mydict)

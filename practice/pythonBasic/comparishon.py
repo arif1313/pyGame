@@ -12,7 +12,7 @@ array2= [52,84,65,236,14]
 array2.sort(reverse=True)
 print(array2)
 
-nameList= ["Arif", "Sagor", "Rifat", "Ruma", "chadni", "Doli","Choity"];
+nameList= ["Arif", "Sagor", "Rifat", "Ruma", "chadni", "Doli","Choity"]
 nameList.sort()
 print(nameList); #  sort function is case sensetive so  Output = ['Arif', 'Choity', 'Doli', 'Rifat', 'Ruma', 'Sagor', 'chadni']
 
@@ -20,7 +20,7 @@ print(nameList); #  sort function is case sensetive so  Output = ['Arif', 'Choit
 by default key set. you can do sort case Insensetive by customize ke
 
 '''
-nameList.sort(key=str.lower);
+nameList.sort(key=str.lower)
 
 print(nameList);# now output is ['Arif', 'chadni', 'Choity', 'Doli', 'Rifat', 'Ruma', 'Sagor']
 

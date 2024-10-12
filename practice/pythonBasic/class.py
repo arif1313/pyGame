@@ -3,9 +3,9 @@ class myfirstclass:
     age=20
     instution=""
 
-information=myfirstclass();
+information=myfirstclass()
 print(information.name)
-information.instution="sonargo university";
+information.instution="sonargo university"
 print(information.instution)
 #constrctor
 class mysecondClass:
@@ -18,7 +18,7 @@ class mysecondClass:
         return f"{self.name}({self.age})"
        
        
-myinf=mysecondClass("sagor islam", 20);
+myinf=mysecondClass("sagor islam", 20)
 print(myinf)
 
 #inheritence
@@ -33,8 +33,8 @@ class student1(course):
     def __init__(self, course, name, time, studentname, age) -> None:
         super().__init__(course, name, time)
         self.studentname=studentname
-        self.age=age;
-student_informtion=student1('HUM','dld','2hour','Mumin',30);
+        self.age=age
+student_informtion=student1('HUM','dld','2hour','Mumin',30)
 print(student_informtion.course)
 print(student_informtion.studentname)
 
